@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'hookify-react',
   tagline: 'A collection of high-performance, reusable, and production-ready React hooks to simplify state management, dom, location, async management and browser storage.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/hookify-react.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -71,7 +71,7 @@ const config: Config = {
       title: 'hookify-react',
       logo: {
         alt: 'hookify-react Logo',
-        src: 'img/logo.svg',
+        src: 'img/hookify-react.png',
       },
       items: [
         {
@@ -82,7 +82,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/uttamakwana',
           label: 'GitHub',
           position: 'right',
         },
@@ -118,18 +118,31 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Projects',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Pixel Perfect CSS',
+              href: 'https://npmjs.com/package/pixel-perfect-css',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Quick Notes',
+              href: 'https://findmynotes.netlify.app/',
+            },
+            {
+              label: 'Pomodoro Clone',
+              href: 'https://um-pomofocus.netlify.app/',
             },
           ],
         },
+        {
+          title: "Contact",
+          items: [
+            {
+              label: "Gmail",
+              href: "mailto:uttamakwana4503@gmail.com"
+            }
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} hookify-react, Inc. Built with Docusaurus.`,
     },
