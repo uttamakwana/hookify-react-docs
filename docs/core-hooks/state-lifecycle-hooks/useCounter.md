@@ -64,10 +64,3 @@ export default function CounterComponent() {
   );
 }
 ```
-
-## See Also
-
-- [useArray](/docs/hooks/useArray)
-- [useToggle](/docs/hooks/useToggle)
-- [useLocalStorage](/docs/hooks/useLocalStorage)
-```
